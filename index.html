@@ -1,0 +1,70 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html"; charset="utf-8" />
+  <link rel="stylesheet" href="css/style.css">
+  <script lang="javascript">
+
+alert("Hello World");
+var webexperience=prompt("How many years have you experienced in Web Design?");
+alert (webexperience);
+
+if (webexperience<4) {
+  alert("You are a junior Web Designer that can or has acheived an Associate's Degree");
+}else {
+  alert("You are an average Web Designer that can or has acheived a Bachelor's Degree");
+}
+function myFunction() {
+  var hour = new Date().getHours();
+  var greeting;
+  if (hour >4) {
+    greeting = "Junior Web Designer";
+  } else {
+    greeting = "Average Web Designer";
+  }
+  document.getElementById("demo").innerHTML = greeting;
+}
+var x = 2;
+var y = 2;
+var z = x + y;
+document.getElementById("demo").innerHTML=z;
+console.log("Hello world!");
+  </script>
+  <title>Web Design Experience</title>
+</head>
+<body>
+  <h1>Web Design Experience</h1>
+  <div class="container">
+    <header><h1>Degree Results</h1></header>
+    <nav>
+    <ul>
+ <li><a class="active" href="#home">Home</a></li>
+ <li><a href="about.html">About</a></li>
+ <li><a href="webtools.html">Web Tools</a></li>
+
+
+
+    </ul></nav>
+  <p id="demo"></p>
+  <p id="demo"></p>
+  <p>The result of adding 2 years Associate's + 2 years experience:=4</p>
+  <p>Click the button to display your result of what kind of Web Designer are you?</p>
+  <img width="600" height="500" alt="man helps an employee look at his computer screen" src="images/johnschnobrich.jpg"/>
+  <button onclick="myFunction()">Try it</button>
+<h2>Why is it important to know your Web Design Experience?</h2>
+<p>It's important to know your web design experience because it will determine
+  how much you know from web design.</p>
+  <h1>Things to consider that determine your Web Design experience.</h1>
+  <h2>Have you taken any web design elements which are</h2>
+<p>Html<br>
+Css</br>javascript<br>SCSS</br></p>
+<p>It's important that you should be familiar with these elements in web design,
+because they are the tools that build and create your own stunning website.</p>
+
+<footer><h3>Want to know more about your Web Developer career? Call 1(800)375-480
+for more help.</h3></footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+body{
+background-color: gray;
+}
+
+.container{
+  background-color: white;
+}
+
+
+
+h1{
+  background-color: white;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  font-size: 25px;
+}
+
+h2{
+  text-align: center;
+  background-color: white;
+}
+
+
+
+footer{
+  width: 1810px;
+  height:80px;
+  background-color: black;
+}
+
+h3{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+nav{
+  width:1800px;
+  height: 70px;
+  background-color: darkgrey;
+  font-size: 40px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: white;
+}
